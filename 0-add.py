@@ -1,5 +1,10 @@
 #!/usr/bin/python3
+
 def add(a, b):
+    return a + b
+
+if __name__ == "__main__":
     a = 1
     b = 2
-    print("<a {}> + <b {}> = <add(a, b) {}>}".format(a, b, a + b), end = "\n")
+    result = add(a, b)
+    print("{} + {} = {}".format(a, b, result))
